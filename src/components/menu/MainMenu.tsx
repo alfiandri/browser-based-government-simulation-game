@@ -71,11 +71,10 @@ export function MainMenu({ onStartGame }: MainMenuProps) {
 
         <button
           onClick={handleNewGame}
-          className={`w-full py-3.5 px-6 font-black text-sm rounded-2xl shadow-xl transition-all transform hover:scale-102 active:scale-98 flex items-center justify-center gap-2 border ${
-            hasSavedGame
+          className={`w-full py-3.5 px-6 font-black text-sm rounded-2xl shadow-xl transition-all transform hover:scale-102 active:scale-98 flex items-center justify-center gap-2 border ${hasSavedGame
               ? 'bg-slate-900/90 hover:bg-slate-800 text-white border-slate-700'
               : 'bg-gradient-to-r from-amber-500 via-amber-400 to-amber-500 hover:from-amber-400 hover:to-amber-300 text-slate-950 border-amber-300'
-          }`}
+            }`}
         >
           <RotateCcw className="w-4 h-4" />
           <span>Mulai Periode Baru (2029 - 2034)</span>
@@ -151,7 +150,7 @@ export function MainMenu({ onStartGame }: MainMenuProps) {
             </p>
             <div className="bg-slate-950/60 p-3 rounded-xl border border-slate-800 text-center">
               <span className="text-[10px] uppercase tracking-wider text-slate-400 font-semibold block mb-0.5">Pengembang</span>
-              <p className="text-xs font-semibold text-amber-400">Created by Alfiandri Putra Perdana</p>
+              <p className="text-xs font-semibold text-amber-400">Alfiandri Putra Perdana</p>
             </div>
             <p className="text-xs text-slate-400 italic">
               "Menjadi Presiden bukan hanya tentang memiliki kekuasaan, tetapi tentang mengambil keputusan dan bertanggung jawab atas konsekuensinya."

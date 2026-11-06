@@ -149,6 +149,10 @@ export function MainMenu({ onStartGame }: MainMenuProps) {
             <p className="text-xs leading-relaxed text-slate-300">
               <strong>Presiden: Simulasi Indonesia</strong> adalah game simulasi 3D berbasis peramban (browser) yang menghadirkan pengalaman mendalam dalam tata kelola pemerintahan, kebijakan fiskal APBN, stabilitas politik, dan dinamika sosial masyarakat Indonesia.
             </p>
+            <div className="bg-slate-950/60 p-3 rounded-xl border border-slate-800 text-center">
+              <span className="text-[10px] uppercase tracking-wider text-slate-400 font-semibold block mb-0.5">Pengembang</span>
+              <p className="text-xs font-semibold text-amber-400">Created by Alfiandri Putra Perdana</p>
+            </div>
             <p className="text-xs text-slate-400 italic">
               "Menjadi Presiden bukan hanya tentang memiliki kekuasaan, tetapi tentang mengambil keputusan dan bertanggung jawab atas konsekuensinya."
             </p>
